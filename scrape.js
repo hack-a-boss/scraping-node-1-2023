@@ -4,7 +4,6 @@ const fs = require("fs/promises");
 const ke = require("keyword-extractor");
 
 const sources = require("./sources");
-const { sort } = require("./sources");
 
 const MAX_ITEMS = 10;
 const FILENAME = "headlines.json";
