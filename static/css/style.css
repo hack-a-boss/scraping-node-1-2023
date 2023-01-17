@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+header ul li {
+  padding: 0.5rem;
+  background: steelblue;
+  color: white;
+}
+
+ul.blocks {
+  padding: 1rem;
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+ul.blocks a {
+  color: black;
+}
+
+ul.blocks a:visited {
+  color: steelblue;
+}
+
+ul.blocks h2 {
+  margin-bottom: 1rem;
+}
+
+ul.blocks ul {
+  list-style: none;
+}
+
+ul.blocks ul li {
+  margin: 0.25rem 0;
+}
